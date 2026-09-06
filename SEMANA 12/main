@@ -1,0 +1,63 @@
+Programa de Gestión de Reservas de Asientos de una Sala de Cine
+
+Estudiante: Valeria Macas
+Lenguaje: Python
+Archivo principal: matriz-cine.py
+
+Descripción
+
+Este programa permite gestionar de forma sencilla la reserva de asientos
+de una sala de cine mediante una matriz de 3 filas por 4 columnas.
+Cada posición de la matriz representa un asiento: 0 indica que el
+asiento está libre y 1 indica que está reservado.
+
+El usuario ingresa la fila y la columna del asiento que desea reservar.
+Luego, el programa cambia su valor a 1 y muestra en pantalla el estado
+actualizado de todos los asientos.
+
+Objetivo del programa
+
+Aplicar el uso de matrices (listas bidimensionales), entrada de datos,
+asignación de valores y ciclos for anidados en Python, simulando un
+sistema básico de reserva de asientos de una sala de cine.
+
+Código fuente comentado
+
+El archivo matriz-cine.py contiene comentarios que explican las
+principales partes del programa: creación de la matriz, ingreso de
+datos, reserva del asiento y recorrido de la matriz para mostrar su
+estado.
+
+¿Cómo ejecutarlo?
+
+Tener instalado Python 3.
+
+Abrir el proyecto en PyCharm o en otro entorno de desarrollo
+compatible con Python.
+
+Abrir el archivo matriz-cine.py.
+
+Ejecutar el programa.
+
+Cuando aparezcan las preguntas en la consola, ingresar:
+
+Una fila entre 0 y 2.
+
+Una columna entre 0 y 3.
+
+El programa marcará el asiento seleccionado como reservado (1) y
+mostrará la matriz actualizada.
+
+Ejemplo de funcionamiento
+
+Si se selecciona la fila 2 y la columna 3, el resultado final será
+similar a:
+
+0 0 0 0
+0 0 0 0
+0 0 0 1
+
+Nota
+
+Los índices utilizados comienzan desde 0, por lo que las filas
+disponibles son 0, 1, 2 y las columnas 0, 1, 2, 3.
