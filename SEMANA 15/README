@@ -1,0 +1,36 @@
+# Sistema de Gestión de Productos - Tienda
+
+## Informacion de la actividad
+* Universidad: Universidad Estatal Amazónica[cite: 3]
+* Carrera: Tecnologias de la Informacion[cite: 3]
+* Asignatura: Fundamentos de Programacion
+* Tema: Colecciones de datos (Listas, Conjuntos y Diccionarios)[cite: 1, 3]
+
+---
+
+## Objetivo
+Aplicar el uso de colecciones de datos en Python mediante el desarrollo de un programa funcional que permita almacenar, organizar, buscar y eliminar informacion simulando un caso de la vida real.
+
+---
+
+## Estructuras de datos utilizadas
+El programa combina dos de las estructuras vistas en clase:
+1. Conjunto (set): Se utiliza para almacenar los nombres de los productos asegurando que no se repitan y evitando duplicados[cite: 3, 4].
+2. Diccionario (dict): Permite relacionar cada producto con su precio utilizando el formato de clave-valor[cite: 3, 4].
+
+---
+
+## Funcionalidades
+El sistema funciona mediante un menu en la consola que ofrece las siguientes opciones:
+* Registrar producto: Pide el nombre y el precio, validando que no exista previamente.
+* Mostrar inventario: Recorre las colecciones para imprimir en pantalla todos los productos registrados[cite: 2, 4].
+* Buscar producto: Permite ingresar el nombre de un articulo para verificar si existe y ver su precio[cite: 3, 4].
+* Eliminar producto: Borra el elemento seleccionado tanto del conjunto como del diccionario.
+* Salir: Cierra la ejecucion del programa.
+
+---
+
+## Instrucciones de ejecucion
+1. Tener instalado Python en el computador.
+2. Abrir el archivo codigo en PyCharm o cualquier entorno de desarrollo[cite: 5].
+3. Ejecutar el script y seguir las opciones del menu en la consola.
